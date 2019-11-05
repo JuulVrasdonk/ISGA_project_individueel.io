@@ -1,0 +1,145 @@
+@font-face{
+    font-family: 'avenir';
+    src: url(fonts/Avenir-Book-01.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'avenir';
+    src: url(fonts/Avenir-Black.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 5vh;
+    font-family: 'avenir';
+    font-weight: 600;
+    margin:auto;
+    margin-left: 0;
+    position: relative;
+    right: 42px;
+}
+.home{
+    height: 10vh;
+    width: 40vw;
+    margin:0;
+    padding: 0;
+    margin-left: 3%;
+    position: relative;
+    right: 40px;
+    top: 10px
+}
+p{
+    color: white;
+    font-family: 'avenir';
+}
+a{
+    font-family: 'avenir';
+    font-weight: 600;
+    color: white;
+}
+p{
+    margin: 8%;
+}
+h2{
+    font-size: 5vh;
+    font-family: 'avenir';
+    font-weight: 600;
+    color: rgb(227,6,19);
+}
+/*Blokken onderwerp*/
+.secondhand, .rental, .essentials{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;    
+    width: 90%;
+    margin: 0 5%;
+}
+.rental, .essentials{
+    margin-bottom: 10%;
+}
+.secndhand{
+    margin-bottom: 5%;
+}
+img{
+    height: 80%;
+    width: 60%;
+    margin-bottom: 5%;
+}
+.essentials img{
+    height:140px
+}
+/*pijltjes en extra text*/
+summary::-webkit-details-marker {
+  display: none;
+}
+.extendessentials:after {
+    background: url(icons/arrow_down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    height: 30px;
+    width: 30px;
+    content: " ";
+    position: relative;
+    left: 150px;
+    bottom: 203px;
+}
+.extendrental:after {
+    background: url(icons/arrow_down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    height: 30px;
+    width: 30px;
+    content: " ";
+    position: relative;
+    left: 150px;
+    bottom: 180px;
+}
+.extendhand:after {
+    background: url(icons/arrow_down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    height: 30px;
+    width: 30px;
+    content: " ";
+    position: relative;
+    left: 150px;
+    bottom:190px;
+}
+
+details[open] summary:after {
+    background: url(icons/arrow_up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 305px;
+}
+.guide{
+    margin: 5% 10%;
+    width: 80%;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+a{
+    font-size: 2em;
+    margin: 10%;
+    text-decoration: none;
+}
+
+
+
