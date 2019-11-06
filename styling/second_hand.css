@@ -30,14 +30,9 @@ h1{
     right: 180px
 }
 .home{
-    height: 10vh;
-    width: 40vw;
-    margin:0;
-    padding: 0;
-    margin-left: 3%;
-    position: relative;
-    right: 100px;
-    top: 0px;
+  margin: 0;
+  position: relative;
+  left: 15px;
 }
 img{
     height: 80%;
@@ -70,4 +65,7 @@ p{
     font-size: 3em;
     font-family: 'avenir';
     margin: 0 7vw 0 13vw
+}
+.last{
+    margin-bottom: 5vh;
 }
