@@ -18,17 +18,23 @@ header{
     margin: 0;
     padding: 0;
 }
-.headbar{
+header{
     display: flex;
+    margin: 0;
+    padding: 0;
+    max-height: 15vh;
 }
 h1{
-    text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
     font-family: 'avenir';
     font-weight: 600;
+    margin-left: 0;
+    margin-top: 2.5vh;
+    margin-bottom: 0;
     position: relative;
-    right: 180px
+    right: 22px;
 }
+
 .home{
   margin: 0;
   position: relative;
