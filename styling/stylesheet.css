@@ -33,6 +33,9 @@ h2{
   color: white;
   text-transform: uppercase;
 }
+a{
+  text-decoration: none;
+}
 .iconyourbike{
   width: 50%;
   margin: 0;
@@ -47,13 +50,13 @@ h2{
 .iconrules{
   position: absolute;
   left: 27.5vw;
-  top: 48vh;
+  top: 56vh;
   width: 45vw;
 }
 .iconsigns{
   width: 50%;
   margin: 0;
   position: absolute;
-  left: 30vw;
-  top: 80vh;
+  left: 36vw;
+  top: 95vh;
 }

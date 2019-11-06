@@ -62,15 +62,16 @@ h2{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background-color: black;    
+    background-color: black;
     width: 90%;
     margin: 0 5%;
 }
 .rental, .essentials{
     margin-bottom: 10%;
 }
-.secndhand{
-    margin-bottom: 5%;
+.secondhand{
+    margin-bottom: 10%;
+    margin-top: 5%;
 }
 img{
     height: 80%;
@@ -94,7 +95,7 @@ summary::-webkit-details-marker {
     content: " ";
     position: relative;
     left: 150px;
-    bottom: 203px;
+    bottom: 193px;
 }
 .extendrental:after {
     background: url(icons/arrow_down.png);
@@ -106,7 +107,7 @@ summary::-webkit-details-marker {
     content: " ";
     position: relative;
     left: 150px;
-    bottom: 180px;
+    bottom: 170px;
 }
 .extendhand:after {
     background: url(icons/arrow_down.png);
@@ -118,7 +119,7 @@ summary::-webkit-details-marker {
     content: " ";
     position: relative;
     left: 150px;
-    bottom:190px;
+    bottom:180px;
 }
 
 details[open] summary:after {
@@ -140,6 +141,3 @@ a{
     margin: 10%;
     text-decoration: none;
 }
-
-
-
