@@ -117,7 +117,7 @@ summary::-webkit-details-marker {
     content: " ";
     position: relative;
     left: 150px;
-    bottom: 200px;
+    bottom: 215px;
 }
 
 details[open] summary:after {
