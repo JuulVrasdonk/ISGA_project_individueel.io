@@ -51,7 +51,7 @@ img{
 .intro{
     width: 80vw;
     margin: 0% 10% 20% 10%;
-    font-size: 3em;  
+    font-size: 3em;
     text-align: center;
     font-family: 'avenir';
 }
@@ -67,7 +67,7 @@ span{
     color: black;
 }
 p{
-    font-size: 1.5em;
+    font-size: 3em;
     font-family: 'avenir';
     margin: 0 7vw 0 13vw
 }
