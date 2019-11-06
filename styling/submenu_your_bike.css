@@ -23,20 +23,15 @@ h1{
     font-size: 5vh;
     font-family: 'avenir';
     font-weight: 600;
-    margin:auto;
+    margin-top:5vh;;
     margin-left: 0;
+    margin-bottom: 0;
     position: relative;
-    right: 42px;
+    right: 62px;
 }
+
 .home{
-    height: 10vh;
-    width: 40vw;
-    margin:0;
-    padding: 0;
-    margin-left: 3%;
-    position: relative;
-    right: 40px;
-    top: 10px
+  margin-left: 3%;
 }
 p{
     color: white;
