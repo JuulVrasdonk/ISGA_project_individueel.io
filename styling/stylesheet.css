@@ -50,7 +50,7 @@ a{
 .iconrules{
   position: absolute;
   left: 27.5vw;
-  top: 56vh;
+  top: 50vh;
   width: 45vw;
 }
 .iconsigns{
@@ -58,5 +58,5 @@ a{
   margin: 0;
   position: absolute;
   left: 36vw;
-  top: 95vh;
+  top: 90vh;
 }
