@@ -133,9 +133,10 @@ details[open] summary:after {
     background-color: red;
     border: none;
     border-radius: 10px;
+    text-align: center;;
 }
 a{
+    text-decoration: none;
     font-size: 2em;
     margin: 10%;
-    text-decoration: none;
 }

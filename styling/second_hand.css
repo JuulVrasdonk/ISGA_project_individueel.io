@@ -40,10 +40,16 @@ img{
     width: 80%;
     margin: 15% 10%;
 }
+.nonvisbanner{
+    display: none;
+}
+.nonvisintro{
+  display: none;
+}
 .intro{
     width: 80vw;
     margin: 0% 10% 20% 10%;
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
     font-family: 'avenir';
 }
@@ -54,12 +60,11 @@ h2{
     font-size: 5vh;
     margin: 4vh 2vw;
 }
-
 span{
     color: black;
 }
 p{
-    font-size: 3em;
+    font-size: 1.5em;
     font-family: 'avenir';
     margin: 0 7vw 0 13vw
 }
