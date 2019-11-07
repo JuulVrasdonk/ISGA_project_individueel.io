@@ -24,15 +24,15 @@ h1{
     font-size: 6vh;
     font-family: 'avenir';
     font-weight: 600;
-    margin: 2vh 0 0 8vw;
+    margin: 2vh 0 0 7vw;
 }
 
-.home{
+.homebutton{
   margin: 0;
-  position: relative;
-  left: 15px;
-  height: 15vh;
-  width: 20vw;
+  width: 15vw;
+  position: absolute;
+  top: 2vh;
+  left: 3vh;
 }
 p{
     color: white;
@@ -69,41 +69,18 @@ h2{
     margin-bottom: 10%;
     margin-top: 5%;
 }
-img{
+
+.es, .ren{
     height: 80%;
-    width: 60%;
+    width: 30%;
     margin-bottom: 5%;
 }
-.essentials img{
-    height:140px
+.sh{
+  width: 50%;
 }
 /*pijltjes en extra text*/
 summary::-webkit-details-marker {
   display: none;
-}
-.extendessentials:after {
-    background: url(icons/arrow_down.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: left;
-    height: 30px;
-    width: 30px;
-    content: " ";
-    position: relative;
-    left: 150px;
-    bottom: 213px;
-}
-.extendrental:after {
-    background: url(icons/arrow_down.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: left;
-    height: 30px;
-    width: 30px;
-    content: " ";
-    position: relative;
-    left: 150px;
-    bottom: 170px;
 }
 .extendhand:after {
     background: url(icons/arrow_down.png);
@@ -115,8 +92,33 @@ summary::-webkit-details-marker {
     content: " ";
     position: relative;
     left: 150px;
-    bottom: 180px;
+    bottom: 155px;
 }
+.extendrental:after {
+    background: url(icons/arrow_down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    height: 30px;
+    width: 30px;
+    content: " ";
+    position: relative;
+    left: 150px;
+    bottom: 185px;
+}
+.extendessentials:after {
+    background: url(icons/arrow_down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    height: 30px;
+    width: 30px;
+    content: " ";
+    position: relative;
+    left: 150px;
+    bottom: 164px;
+}
+
 
 details[open] summary:after {
     background: url(icons/arrow_up.png);

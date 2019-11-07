@@ -21,18 +21,15 @@ header{
     max-height: 15vh;
 }
 h1{
-    font-size: 6vh;
+    font-size: 5.75vh;
     font-family: 'avenir';
     font-weight: 600;
-    margin: 2vh 0 0 2vw;
+    margin: 3vh 0 0 3vw;
 }
 
-.home{
-  margin: 0;
-  position: relative;
-  left: 15px;
-  height: 15vh;
-  width: 20vw;
+.homebutton{
+  margin: 2vh 0 0 2vw;
+  width: 15vw;
 }
 img{
     height: 80%;
